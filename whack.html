@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/c7b2e6c21c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Document</title>
+</head>
+<body class="bg-green-500 min-h-screen">
+    <div>
+        <div class="heading italic text-yellow-300 font-bold text-[3rem] flex items-center justify-center pt-20 ">
+            Whack-A-Mole
+
+        </div>
+        <div class="heading text-white font-sm text-10 flex items-center justify-center pt-3 ">
+            Fastest Fingers
+
+        </div>
+        <div class="text-white flex items-center justify-center text-center pt-15 gap-6">
+            <button class=" start text-white bg-green-400 border-1 border-green-500 w-20 h-10 hover:shadow-lg shadow-green-400 hover:shadow-green-600 font-bold text-[5xl] ">
+                Start
+            </button>
+            <button class=" stop text-white bg-red-500 border-1 border-green-500 w-20 h-10 hover:shadow-lg shadow-green-400 hover:shadow-green-600 font-bold text-[5xl] ">
+                Stop
+            </button>
+
+          
+        </div>
+        
+
+        <div class="buttons flex justify-center items-center pt-20 gap-13">
+            <button class="hole1 rounded-full border-7 border-yellow-500 w-30 h-30 text-center text-[3rem]">
+                
+            </button>
+            <button class="hole2 rounded-full border-7 border-yellow-500 w-30 h-30 text-center text-[3rem]">
+
+            </button>
+            <button class="hole3 rounded-full border-7 border-yellow-500 w-30 h-30 text-center text-[3rem]">
+
+            </button>
+
+        </div>
+
+        <div class="text-white flex items-center justify-center text-center text-[3rem] pt-15 font-extrabold">
+            Score: <span class="score"></span>
+        </div>
+    </div>
+    <script src="whack.js"></script>
+</body>
+</html>
